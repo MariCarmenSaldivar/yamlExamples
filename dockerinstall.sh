@@ -1,7 +1,6 @@
 #!/bin/bash
 
 #Configurar el repositorio, instalar paquetespara usar el repositorio por https
-
 sudo apt-get update
 sudo apt-get install \
 apt-transport-https \
