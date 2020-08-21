@@ -2,7 +2,7 @@
 
 #Configurar el repositorio, instalar paquetespara usar el repositorio por https
 sudo apt-get update
-sudo apt-get install \
+sudo apt-get install -y \
 apt-transport-https \
 ca-certificates \
 curl \
@@ -19,4 +19,4 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 
 #Instalar Docker Engine
 sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io
