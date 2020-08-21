@@ -2,12 +2,7 @@
 
 #Configurar el repositorio, instalar paquetespara usar el repositorio por https
 sudo apt-get update
-sudo apt-get install \
-apt-transport-https -y \
-ca-certificates -y \
-curl -y \
-gnupg-agent -y \
-software-properties-common -y
+sudo apt-get install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common
 
 #Agregar llave Docker GPG 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
